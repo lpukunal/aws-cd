@@ -17,4 +17,5 @@ class JenkinsSampleTest < MiniTest::Unit::TestCase
   def test_congratulations
     assert(@webpage =~ /Congratulations veere!/)
   end
+  
 end
